@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/software.css" rel="stylesheet">
+    <link href="css/history.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Software</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-0">
+        <a class="navbar-brand" href="index.html"><img alt="logo" class="img-responsive" src="images/logo.jpg"></a>
+        <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">Brief History</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="web.html">Beginning of Web<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="evolution.html">Evolution of Internet</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+                       data-toggle="dropdown"
+                       href="#" id="navbarDropdownMenuLink">
+                        More information
+                    </a>
+                    <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                        <a class="dropdown-item" href="software.html">IBM/Microsoft</a>
+                        <a class="dropdown-item" href="majorEvents.html">Major Events</a>
+                        <a class="dropdown-item" href="1996.html">Year 1995 onwards</a>
+                        <a class="dropdown-item" href="article1_pylint.html">Pylint</a>
+                        <a class="dropdown-item" href="article2_AAA.html">AAA testing</a>
+                        <a class="dropdown-item active" href="Article3.html">OOPS concepts</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <br>
+    <h2 style="text-align: center">Principles of OOPS Concept</h2>
+    <br>
+    <div class="p-5 my-4 bg-dark text-white rounded-3 shadow-lg p-3 rounded ">
+        <div class="container-fluid py-2 mx-4">
+            <div class="row mb-4">
+                <div class="col-lg-12">
+                    <h4 class="mt-0 text-uppercase">Encapsulation</h4>
+                    <p>Encapsulation is one of the four fundamental concepts in object-oriented programming including
+                        abstraction, encapsulation, inheritance, and polymorphism.
+
+                        Encapsulation is the packing of data and functions that work on that data within a single
+                        object. By doing so, you can hide the internal state of the object from the outside. This is
+                        known as information hiding.
+
+                        A class is an example of encapsulation. A class bundles data and methods into a single unit. And
+                        a class provides the access to its attributes via methods.
+
+                        The idea of information hiding is that if you have an attribute that isn’t visible to the
+                        outside, you can control the access to its value to make sure your object is always has a valid
+                        state.</p>
+                    <h5 class="text-uppercase py-2">Encapsulation in calculator</h5>
+                    <div class="">
+                        <img alt="xcoffee" class="mr-3 rounded shadow-lg" src="images/Encapsulation.png" width="200px">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-5 my-4 bg-dark text-white rounded-3 shadow-lg p-3 rounded ">
+        <div class="container-fluid py-2 mx-4">
+            <div class="row mb-4">
+                <div class="col">
+                    <h5 class="mt-0 text-uppercase">Inheritance</h5>
+                    <p>Inheritance allows programmers to create classes that are built upon existing classes, and this
+                        enables a class created through inheritance to inherit the attributes and methods of the parent
+                        class. This means that inheritance supports code reusability. The methods or generally speaking
+                        the software inherited by a subclass is considered to be reused in the subclass. The
+                        relationships of objects or classes through inheritance give rise to a directed graph.
+
+                        The class from which a class inherits is called the parent or superclass. A class which inherits
+                        from a superclass is called a subclass, also called heir class or child class. Superclasses are
+                        sometimes called ancestors as well. There exists a hierarchical relationship between classes.
+                        It's similar to relationships or categorizations that we know from real life. Think about
+                        vehicles, for example. Bikes, cars, buses and trucks are vehicles. Pick-ups, vans, sports cars,
+                        convertibles and estate cars are all cars and by being cars they are vehicles as well. We could
+                        implement a vehicle class in Python, which might have methods like accelerate and brake. Cars,
+                        Buses and Trucks and Bikes can be implemented as subclasses which will inherit these methods
+                        from vehicle.
+                    </p>
+                    <div class="carousel slide py-2" data-ride="carousel" id="carouselExampleIndicators">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+                            <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+                            <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img alt="First slide" class="d-block w-100" src="images/addition.png">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="Second slide" class="d-block w-100" src="images/subtraction.png">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="Third slide" class="d-block w-100" src="images/multiplication.png">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators"
+                           role="button">
+                            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators"
+                           role="button">
+                            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h5 class="py-2">Explanation</h5>
+                        <p>
+                            In the above Image, Addition, Subtraction and Multiplication Uses the Calculation class as
+                            the Base class and the method and properties are Inherited.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="p-5 my-4 bg-dark text-white rounded-3 shadow-lg p-3 rounded ">
+        <div class="container-fluid py-2 mx-4">
+            <div class="row mb-4">
+                <div class="col-lg-9">
+                    <h5 class="mt-0">Microsoft</h5>
+                    <p>In earlier days 1955, people are more familiar with Internet or World Wide Web as ‘Netscape’.
+                        Microsoft business was analysing the Netscape and releasing the versions in the market, which
+                        led to greater share in the Industry.
+                        Microsoft released first Operating system product called ‘Xenix’ in 1980.
+                        MS Dos was the first Microsoft’s successful operating system written for IBM and In 1983,
+                        Microsoft’s Crowning achievement Microsoft Windows was released resulting stock rise
+                        billionaire.
+                        Microsoft Office and Internet explorer is one of the most successful releases, which is widely
+                        used even now in the industry
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <img alt="msdos" class="mr-3 rounded shadow-lg" src="images/msdos.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid">
+    <footer class="bg-dark text-center text-white">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Name: Bhirahaspathi sairam</p>
+                    <p>Email: bs548@njit.edu</p>
+                </div>
+                <div class="col-lg-6">
+                    <p>Name: Rajesh Gnanasekaran</p>
+                    <p>Email: rg48@njit.edu</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="#">Article 3</a>
+            <div>
+                <a class="text-white"
+                   href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fzueshist.eastus.azurecontainer.io%2Fsoftware.html">
+                    https://validator.w3.org/nu/?doc=http%3A%2F%2Fzueshist.eastus.azurecontainer.io%2Fsoftware.html
+                </a>
+            </div>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+<!-- End of .container -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
