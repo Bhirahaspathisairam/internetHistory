@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 
     <meta charset="UTF-8">
@@ -158,7 +158,7 @@
     <div class="my-4 bg-dark text-white rounded-3 shadow-lg p-3 rounded ">
         <div class="container-fluid py-2 mx-4">
             <div class="row mb-4">
-                <div class="col">
+                <div class="col mx-3">
                     <h5 class="mt-0">Polymorphism</h5>
                     <p>Polymorphism means having vivid or different forms. In the programming world, Polymorphism refers
                         to the ability of the function with the same name to carry different functionality altogether.
@@ -180,6 +180,52 @@
                         division it takes tuples as a imput and perform division on the tuple values. The get result
                         method
                         perform a different functionality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-4 bg-dark text-white rounded-3 shadow-lg p-3 rounded">
+        <div class="container-fluid py-2">
+            <div class="row mb-4">
+                <div class="col mx-3">
+                    <h5 class="mt-0">Abstraction</h5>
+                    <p>Abstraction is used to hide the internal functionality of the function from the users. The users
+                        only interact with the basic implementation of the function, but inner working is hidden. User
+                        is familiar with that "what function does" but they don't know "how it does.In Python, an
+                        abstraction is used to hide the irrelevant data/class in order to reduce the
+                        complexity. It also enhances the application efficiency. Next, we will learn how we can achieve
+                        abstraction using the Python program
+                    </p>
+                    <h5>Abstraction classes in Python</h5>
+                    <p>Unlike the other high-level language, Python doesn't provide the abstract class itself. We need
+                        to import the abc module, which provides the base for defining Abstract Base classes (ABC). The
+                        ABC works by decorating methods of the base class as abstract. It registers concrete classes as
+                        the implementation of the abstract base. We use the @abstractmethod decorator to define an
+                        abstract method or if we don't provide the definition to the method, it automatically becomes
+                        the abstract method. </p>
+                    <div class="col d-flex justify-content-center py-2">
+                        <div class="card bg-white text-dark mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Syntax</div>
+                            <div class="card-body">
+                                <h5 class="card-title">from abc import ABC</h5>
+                                <p class="card-text">class ClassName(ABC):</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <img alt="Abstraction" class="mr-3 rounded shadow-lg" src="images/Abstraction.png">
+
+                    <p class="py-3">
+                        In the above code, we have imported the abc module to create the abstract base class. We created
+                        the Addition,Subtraction,Division,Multiplication class that inherited the Calculation class and
+                        defined an abstract method named get_result(). We
+                        have then inherited the base class from the three different subclasses and implemented the
+                        abstract method differently. We created the objects to call the abstract method.
+
                     </p>
                 </div>
             </div>
